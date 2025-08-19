@@ -30,5 +30,3 @@ Bu özellik, finans, hava durumu ve diğer ardışık veri problemlerinde LSTM�
   2. **Dense**: Tek çıktı, tahmin edilen sıcaklık  
 - Çıkış: Normalized tahmin → `inverse_transform` ile gerçek sıcaklık değerine çevrilir.
 
----
-("Gerçek sıcaklık tahmini:", scaler.inverse_transform(pred
